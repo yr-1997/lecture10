@@ -4,7 +4,7 @@ const handlePlay = (keyCode) => {
     if (song && button) {
         song.play();
         button.classList.toggle('active');
-        setTimeout(() => button.classList.toggle('active'), 1e3);
+        setTimeout(() => button.classList.toggle('active'), 500);
     }
 
 };
